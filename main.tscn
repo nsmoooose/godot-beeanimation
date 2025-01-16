@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=3 uid="uid://4gmu4m2ncojb"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_6btum"]
+[ext_resource type="Texture2D" uid="uid://b1jhej7we3qc" path="res://images/flower1.png" id="1_6oyuq"]
+[ext_resource type="PackedScene" uid="uid://bakcwh1cnu2by" path="res://bee.tscn" id="2_sueec"]
+
+[sub_resource type="Environment" id="Environment_qv0gq"]
+background_mode = 1
+background_color = Color(0.282353, 0.729412, 0.0588235, 1)
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_6btum")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_qv0gq")
+
+[node name="Flower1" type="Sprite2D" parent="."]
+position = Vector2(107, 91.0001)
+scale = Vector2(0.503906, 0.492188)
+texture = ExtResource("1_6oyuq")
+
+[node name="Flower2" type="Sprite2D" parent="."]
+position = Vector2(456, 324)
+rotation = -0.120428
+scale = Vector2(0.419922, 0.443359)
+texture = ExtResource("1_6oyuq")
+flip_h = true
+flip_v = true
+
+[node name="Flower3" type="Sprite2D" parent="."]
+position = Vector2(272.985, 664.291)
+rotation = -0.120428
+scale = Vector2(0.455355, 0.442033)
+texture = ExtResource("1_6oyuq")
+flip_h = true
+
+[node name="Flower4" type="Sprite2D" parent="."]
+position = Vector2(57, 437)
+scale = Vector2(0.253921, 0.242249)
+texture = ExtResource("1_6oyuq")
+flip_v = true
+
+[node name="Bee" parent="." instance=ExtResource("2_sueec")]
+position = Vector2(162, 316)
+
+[node name="Bee2" parent="." instance=ExtResource("2_sueec")]
+position = Vector2(388, 560)
