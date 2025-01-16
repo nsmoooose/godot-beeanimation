@@ -42,6 +42,9 @@ flip_v = true
 
 [node name="Bee" parent="." instance=ExtResource("2_sueec")]
 position = Vector2(162, 316)
+movement_speed = 10.0
+noise_scale = 0.1
+center_pull_strength = 0.3
 
 [node name="Bee2" parent="." instance=ExtResource("2_sueec")]
 position = Vector2(388, 560)
