@@ -1,6 +1,6 @@
 extends Node2D
 
-@export var frame_count_total: int = 1000
+@export var frame_count_total: int = 600
 
 var frame_count: int = 0
 var output_folder: String = "frames/"
@@ -11,6 +11,11 @@ func _ready():
 	
 func _process(delta: float):
 	if capturing:
+		# First frame is black for some reason.
+		if frame_count == 0:
+			frame_count += 1
+			return
+
 		save_frame()
 		if frame_count >= frame_count_total:
 			get_tree().quit()
