@@ -2,7 +2,7 @@ extends Node2D
 
 # Movement parameters
 @export var movement_speed: float = 1.0
-@export var movement_range: float = 150.0
+@export var movement_range: float = 300.0
 @export var noise_scale: float = 0.2
 @export var center_pull_strength: float = 0.1  # How strongly the fly is pulled to the center
 

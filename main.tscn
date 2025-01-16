@@ -15,8 +15,46 @@ script = ExtResource("1_6btum")
 environment = SubResource("Environment_qv0gq")
 
 [node name="Flower1" type="Sprite2D" parent="."]
-position = Vector2(107, 91.0001)
-scale = Vector2(0.503906, 0.492188)
+position = Vector2(155, 140.5)
+scale = Vector2(0.691406, 0.685547)
+texture = ExtResource("1_6oyuq")
+
+[node name="Flower5" type="Sprite2D" parent="."]
+position = Vector2(665, 1672)
+rotation = -0.883137
+scale = Vector2(0.914062, 0.878906)
+texture = ExtResource("1_6oyuq")
+
+[node name="Flower6" type="Sprite2D" parent="."]
+position = Vector2(215, 1749)
+scale = Vector2(0.638672, 0.576172)
+texture = ExtResource("1_6oyuq")
+
+[node name="Flower11" type="Sprite2D" parent="."]
+position = Vector2(425, 1387)
+rotation = 2.74889
+scale = Vector2(0.638672, 0.576172)
+texture = ExtResource("1_6oyuq")
+
+[node name="Flower7" type="Sprite2D" parent="."]
+position = Vector2(709, 873)
+scale = Vector2(0.9375, 0.898438)
+texture = ExtResource("1_6oyuq")
+
+[node name="Flower8" type="Sprite2D" parent="."]
+position = Vector2(938.5, 238)
+scale = Vector2(0.775391, 0.742188)
+texture = ExtResource("1_6oyuq")
+
+[node name="Flower9" type="Sprite2D" parent="."]
+position = Vector2(889, 2105.5)
+scale = Vector2(0.792968, 0.806641)
+texture = ExtResource("1_6oyuq")
+
+[node name="Flower10" type="Sprite2D" parent="."]
+position = Vector2(353.247, 2071.13)
+rotation = -0.883137
+scale = Vector2(0.911949, 0.891257)
 texture = ExtResource("1_6oyuq")
 
 [node name="Flower2" type="Sprite2D" parent="."]
@@ -28,15 +66,15 @@ flip_h = true
 flip_v = true
 
 [node name="Flower3" type="Sprite2D" parent="."]
-position = Vector2(272.985, 664.291)
+position = Vector2(205, 950)
 rotation = -0.120428
-scale = Vector2(0.455355, 0.442033)
+scale = Vector2(0.744809, 0.697656)
 texture = ExtResource("1_6oyuq")
 flip_h = true
 
 [node name="Flower4" type="Sprite2D" parent="."]
-position = Vector2(57, 437)
-scale = Vector2(0.253921, 0.242249)
+position = Vector2(184, 614)
+scale = Vector2(0.466804, 0.414093)
 texture = ExtResource("1_6oyuq")
 flip_v = true
 
@@ -48,3 +86,11 @@ center_pull_strength = 0.3
 
 [node name="Bee2" parent="." instance=ExtResource("2_sueec")]
 position = Vector2(388, 560)
+rotation = -2.65116
+
+[node name="Bee3" parent="." instance=ExtResource("2_sueec")]
+position = Vector2(590, 1417)
+
+[node name="Bee4" parent="." instance=ExtResource("2_sueec")]
+position = Vector2(313, 1810)
+rotation = -2.25846
