@@ -19,6 +19,27 @@ position = Vector2(155, 140.5)
 scale = Vector2(0.691406, 0.685547)
 texture = ExtResource("1_6oyuq")
 
+[node name="Flower2" type="Sprite2D" parent="."]
+position = Vector2(456, 324)
+rotation = -0.120428
+scale = Vector2(0.419922, 0.443359)
+texture = ExtResource("1_6oyuq")
+flip_h = true
+flip_v = true
+
+[node name="Flower3" type="Sprite2D" parent="."]
+position = Vector2(205, 950)
+rotation = -0.120428
+scale = Vector2(0.744809, 0.697656)
+texture = ExtResource("1_6oyuq")
+flip_h = true
+
+[node name="Flower4" type="Sprite2D" parent="."]
+position = Vector2(184, 614)
+scale = Vector2(0.466804, 0.414093)
+texture = ExtResource("1_6oyuq")
+flip_v = true
+
 [node name="Flower5" type="Sprite2D" parent="."]
 position = Vector2(665, 1672)
 rotation = -0.883137
@@ -27,12 +48,6 @@ texture = ExtResource("1_6oyuq")
 
 [node name="Flower6" type="Sprite2D" parent="."]
 position = Vector2(215, 1749)
-scale = Vector2(0.638672, 0.576172)
-texture = ExtResource("1_6oyuq")
-
-[node name="Flower11" type="Sprite2D" parent="."]
-position = Vector2(425, 1387)
-rotation = 2.74889
 scale = Vector2(0.638672, 0.576172)
 texture = ExtResource("1_6oyuq")
 
@@ -57,28 +72,13 @@ rotation = -0.883137
 scale = Vector2(0.911949, 0.891257)
 texture = ExtResource("1_6oyuq")
 
-[node name="Flower2" type="Sprite2D" parent="."]
-position = Vector2(456, 324)
-rotation = -0.120428
-scale = Vector2(0.419922, 0.443359)
+[node name="Flower11" type="Sprite2D" parent="."]
+position = Vector2(425, 1387)
+rotation = 2.74889
+scale = Vector2(0.638672, 0.576172)
 texture = ExtResource("1_6oyuq")
-flip_h = true
-flip_v = true
 
-[node name="Flower3" type="Sprite2D" parent="."]
-position = Vector2(205, 950)
-rotation = -0.120428
-scale = Vector2(0.744809, 0.697656)
-texture = ExtResource("1_6oyuq")
-flip_h = true
-
-[node name="Flower4" type="Sprite2D" parent="."]
-position = Vector2(184, 614)
-scale = Vector2(0.466804, 0.414093)
-texture = ExtResource("1_6oyuq")
-flip_v = true
-
-[node name="Bee" parent="." instance=ExtResource("2_sueec")]
+[node name="Bee1" parent="." instance=ExtResource("2_sueec")]
 position = Vector2(162, 316)
 movement_speed = 10.0
 noise_scale = 0.1

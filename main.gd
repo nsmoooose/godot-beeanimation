@@ -4,7 +4,7 @@ extends Node2D
 
 var frame_count: int = 0
 var output_folder: String = "frames/"
-var capturing: bool = true
+var capturing: bool = false
 
 func _ready():
 	pass
